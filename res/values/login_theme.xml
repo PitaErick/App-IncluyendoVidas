@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginIncluyendoVidas" parent="Base.Theme.IncluyendoVidas">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:background">@color/mainAzulPtrl</item>
+        <item name="android:colorBackground">@color/mainAzulPtrl</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="titleTextColor">@color/grisClaro</item>
+        <item name="textFillColor">@color/grisClaro</item>
+
+    </style>
+
+    <style name="Theme.LoginIncluyendoVidas" parent="Base.Theme.IncluyendoVidas" />
+</resources>

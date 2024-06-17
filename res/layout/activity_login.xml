@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="210dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/imgmain"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Ingrese su usuario"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="@color/grisClaro"
+            android:textColorHint="@color/grisClaro"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="12"
+                android:fontFamily="sans-serif-medium"
+                android:hint="Ingrese su contraseña"
+                android:inputType="text|textPassword"
+                android:minHeight="48dp"
+                android:singleLine="false"
+                android:textColor="@color/grisClaro"
+                android:textColorHint="@color/grisClaro" />
+
+            <ToggleButton
+                android:id="@+id/btnShowPassword"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:button="@android:drawable/ic_menu_view"
+                android:lineSpacingExtra="0sp"
+                android:paddingStart="0dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textOff="Mostrar"
+                android:textOn="Ocultar"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <CheckBox
+            android:id="@+id/checkLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mantener la sesion"
+            android:textColor="@color/grisClaro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtAlerta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Usuario y/o Contraseña Incorrectos*"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:onClick="iniciarSesion"
+            android:text="Iniciar Sesion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tiene cuenta?"
+            android:textColor="@color/grisClaro" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:onClick="registrarUsuario"
+            android:text="Registrar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

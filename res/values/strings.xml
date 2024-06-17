@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">INCLUYENDO VIDAS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="acerca_de">Incluyendo Vidas es una aplicación móvil que mejora la vida de las personas con discapacidad, ofreciendo acceso personalizado a recursos y servicios. Permite crear perfiles adaptados, encontrar fácilmente recursos relevantes y conectarse con una comunidad de apoyo inclusiva. Promovemos la accesibilidad y la inclusión social de manera efectiva y segura.</string>
+    <string-array name="TiposDiscapacidades">
+        <item>Seleccione</item>
+        <item>Auditiva</item>
+        <item>Física</item>
+        <item>Intelectual</item>
+        <item>Lenguaje</item>
+        <item>Psicosocial</item>
+        <item>Visual</item>
+    </string-array>
+    <string-array name="GradoDiscapacidad">
+        <item>Seleccione</item>
+        <item>Leve</item>
+        <item>Moderado</item>
+        <item>Severo</item>
+    </string-array>
+</resources>
