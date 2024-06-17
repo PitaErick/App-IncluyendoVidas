@@ -1,4 +1,4 @@
-# INCLUYENDO VIDAS
+# PROYECTO DE LA U: INCLUYENDO VIDAS
 ## Problema Por Resolver: 
 La vida diaria de las personas con discapacidad puede enfrentar diversos obstáculos singulares, desde acceder a servicios esenciales hasta llevar a cabo actividades cotidianas. Uno de los desafíos más frecuentes es la dificultad para obtener información pertinente y acceder a recursos diseñados para satisfacer sus necesidades particulares. Esta carencia de accesibilidad puede resultar en exclusiones sociales y restringir la autonomía de las personas con discapacidad.
 ## Alcance del Proyecto:
