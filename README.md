@@ -13,4 +13,5 @@ El propósito principal de la aplicación móvil "Incluyendo Vidas" es simplific
 * Comunidad de Apoyo: 
   * Funcionalidades sociales para que los usuarios puedan conectarse, compartir experiencias, buscar consejos y ofrecer apoyo mutuo.
   * Foros de discusión, grupos de interés y eventos locales relacionados con la discapacidad.
+
 Capturas de las pantallas del funcionamiento en [Drive](https://drive.google.com/file/d/1yp3gIVHsqaMY91Vgh1q4FWKkQpeLQHZ0/view?usp=sharing)
